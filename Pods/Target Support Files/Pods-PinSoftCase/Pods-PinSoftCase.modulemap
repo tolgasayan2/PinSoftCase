@@ -1,0 +1,6 @@
+framework module Pods_PinSoftCase {
+  umbrella header "Pods-PinSoftCase-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22974D3DBBAB7AEDE06BB313 /* Pods_PinSoftCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50574BB0BCE28589601DD77E /* Pods_PinSoftCase.framework */; };
+		B840E8FB2773814E0023625E /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B840E8FA2773814E0023625E /* NothingFoundCell.xib */; };
+		B840E8FD277382230023625E /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B840E8FC277382230023625E /* LoadingCell.xib */; };
+		B840E902277389EE0023625E /* SearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B840E900277389EE0023625E /* SearchResultTableViewCell.swift */; };
+		B840E903277389EE0023625E /* SearchResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B840E901277389EE0023625E /* SearchResultTableViewCell.xib */; };
+		B840E9052773A0B50023625E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B840E9042773A0B50023625E /* GoogleService-Info.plist */; };
+		B840E9082773A1BB0023625E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B840E9072773A1BB0023625E /* FirebaseAnalytics */; };
+		B840E90A2773A1BB0023625E /* FirebaseAnalyticsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = B840E9092773A1BB0023625E /* FirebaseAnalyticsSwift-Beta */; };
+		B840E90C2773A1BB0023625E /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = B840E90B2773A1BB0023625E /* FirebaseMessaging */; };
+		B840E9122773B8170023625E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B840E9112773B8170023625E /* GradientView.swift */; };
+		B840E9142773B8870023625E /* AnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B840E9132773B8870023625E /* AnimationController.swift */; };
+		B840E9162773B8E80023625E /* SlideOutAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B840E9152773B8E80023625E /* SlideOutAnimationController.swift */; };
+		B846143A2770AC800015AA12 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84614392770AC800015AA12 /* Film.swift */; };
+		B846143C2770BEDE0015AA12 /* Displayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846143B2770BEDE0015AA12 /* Displayable.swift */; };
+		B8DE566B2770A00E00D6B2BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE566A2770A00E00D6B2BE /* AppDelegate.swift */; };
+		B8DE566D2770A00E00D6B2BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE566C2770A00E00D6B2BE /* SceneDelegate.swift */; };
+		B8DE566F2770A00E00D6B2BE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE566E2770A00E00D6B2BE /* SearchViewController.swift */; };
+		B8DE56722770A00E00D6B2BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DE56702770A00E00D6B2BE /* Main.storyboard */; };
+		B8DE56742770A00F00D6B2BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DE56732770A00F00D6B2BE /* Assets.xcassets */; };
+		B8DE56772770A00F00D6B2BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DE56752770A00F00D6B2BE /* LaunchScreen.storyboard */; };
+		B8E2163827722835005D2104 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2163727722835005D2104 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50574BB0BCE28589601DD77E /* Pods_PinSoftCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinSoftCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C13140A9397AB53EF9B5C0 /* Pods-PinSoftCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinSoftCase.debug.xcconfig"; path = "Target Support Files/Pods-PinSoftCase/Pods-PinSoftCase.debug.xcconfig"; sourceTree = "<group>"; };
+		B7BD713110CEB7560A69ABC1 /* Pods-PinSoftCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinSoftCase.release.xcconfig"; path = "Target Support Files/Pods-PinSoftCase/Pods-PinSoftCase.release.xcconfig"; sourceTree = "<group>"; };
+		B840E8FA2773814E0023625E /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
+		B840E8FC277382230023625E /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		B840E900277389EE0023625E /* SearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		B840E901277389EE0023625E /* SearchResultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultTableViewCell.xib; sourceTree = "<group>"; };
+		B840E9042773A0B50023625E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B840E90D2773B0630023625E /* PinSoftCase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PinSoftCase.entitlements; sourceTree = "<group>"; };
+		B840E9112773B8170023625E /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		B840E9132773B8870023625E /* AnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationController.swift; sourceTree = "<group>"; };
+		B840E9152773B8E80023625E /* SlideOutAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOutAnimationController.swift; sourceTree = "<group>"; };
+		B84614392770AC800015AA12 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		B846143B2770BEDE0015AA12 /* Displayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Displayable.swift; sourceTree = "<group>"; };
+		B8DE56672770A00E00D6B2BE /* PinSoftCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinSoftCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8DE566A2770A00E00D6B2BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8DE566C2770A00E00D6B2BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B8DE566E2770A00E00D6B2BE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B8DE56712770A00E00D6B2BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8DE56732770A00F00D6B2BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8DE56762770A00F00D6B2BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8DE56782770A00F00D6B2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E2163727722835005D2104 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8DE56642770A00E00D6B2BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B840E90C2773A1BB0023625E /* FirebaseMessaging in Frameworks */,
+				B840E90A2773A1BB0023625E /* FirebaseAnalyticsSwift-Beta in Frameworks */,
+				B840E9082773A1BB0023625E /* FirebaseAnalytics in Frameworks */,
+				22974D3DBBAB7AEDE06BB313 /* Pods_PinSoftCase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4310041E23F89C5003ED0DCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83C13140A9397AB53EF9B5C0 /* Pods-PinSoftCase.debug.xcconfig */,
+				B7BD713110CEB7560A69ABC1 /* Pods-PinSoftCase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		98AAF1A4E351FC5CCA5FF553 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50574BB0BCE28589601DD77E /* Pods_PinSoftCase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B840E90E2773B6FF0023625E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B8DE566E2770A00E00D6B2BE /* SearchViewController.swift */,
+				B8E2163727722835005D2104 /* DetailViewController.swift */,
+				B840E900277389EE0023625E /* SearchResultTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B840E90F2773B7100023625E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8DE56702770A00E00D6B2BE /* Main.storyboard */,
+				B840E8FC277382230023625E /* LoadingCell.xib */,
+				B840E8FA2773814E0023625E /* NothingFoundCell.xib */,
+				B840E901277389EE0023625E /* SearchResultTableViewCell.xib */,
+				B8DE56752770A00F00D6B2BE /* LaunchScreen.storyboard */,
+				B8DE56732770A00F00D6B2BE /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B840E9102773B7240023625E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B846143B2770BEDE0015AA12 /* Displayable.swift */,
+				B84614392770AC800015AA12 /* Film.swift */,
+				B840E9112773B8170023625E /* GradientView.swift */,
+				B840E9132773B8870023625E /* AnimationController.swift */,
+				B840E9152773B8E80023625E /* SlideOutAnimationController.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B8DE565E2770A00E00D6B2BE = {
+			isa = PBXGroup;
+			children = (
+				B8DE56692770A00E00D6B2BE /* PinSoftCase */,
+				B8DE56682770A00E00D6B2BE /* Products */,
+				4310041E23F89C5003ED0DCD /* Pods */,
+				98AAF1A4E351FC5CCA5FF553 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B8DE56682770A00E00D6B2BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8DE56672770A00E00D6B2BE /* PinSoftCase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8DE56692770A00E00D6B2BE /* PinSoftCase */ = {
+			isa = PBXGroup;
+			children = (
+				B840E90D2773B0630023625E /* PinSoftCase.entitlements */,
+				B8DE566A2770A00E00D6B2BE /* AppDelegate.swift */,
+				B8DE566C2770A00E00D6B2BE /* SceneDelegate.swift */,
+				B840E9102773B7240023625E /* Models */,
+				B840E90E2773B6FF0023625E /* Controllers */,
+				B840E90F2773B7100023625E /* Views */,
+				B840E9042773A0B50023625E /* GoogleService-Info.plist */,
+				B8DE56782770A00F00D6B2BE /* Info.plist */,
+			);
+			path = PinSoftCase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8DE56662770A00E00D6B2BE /* PinSoftCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8DE567B2770A00F00D6B2BE /* Build configuration list for PBXNativeTarget "PinSoftCase" */;
+			buildPhases = (
+				C2A79F58AF0520B3F0995897 /* [CP] Check Pods Manifest.lock */,
+				B8DE56632770A00E00D6B2BE /* Sources */,
+				B8DE56642770A00E00D6B2BE /* Frameworks */,
+				B8DE56652770A00E00D6B2BE /* Resources */,
+				46FEDE1B71ECE5292F1C37D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinSoftCase;
+			packageProductDependencies = (
+				B840E9072773A1BB0023625E /* FirebaseAnalytics */,
+				B840E9092773A1BB0023625E /* FirebaseAnalyticsSwift-Beta */,
+				B840E90B2773A1BB0023625E /* FirebaseMessaging */,
+			);
+			productName = PinSoftCase;
+			productReference = B8DE56672770A00E00D6B2BE /* PinSoftCase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8DE565F2770A00E00D6B2BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					B8DE56662770A00E00D6B2BE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = B8DE56622770A00E00D6B2BE /* Build configuration list for PBXProject "PinSoftCase" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8DE565E2770A00E00D6B2BE;
+			packageReferences = (
+				B840E9062773A1BB0023625E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = B8DE56682770A00E00D6B2BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8DE56662770A00E00D6B2BE /* PinSoftCase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8DE56652770A00E00D6B2BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B840E903277389EE0023625E /* SearchResultTableViewCell.xib in Resources */,
+				B840E8FB2773814E0023625E /* NothingFoundCell.xib in Resources */,
+				B8DE56772770A00F00D6B2BE /* LaunchScreen.storyboard in Resources */,
+				B8DE56742770A00F00D6B2BE /* Assets.xcassets in Resources */,
+				B840E8FD277382230023625E /* LoadingCell.xib in Resources */,
+				B8DE56722770A00E00D6B2BE /* Main.storyboard in Resources */,
+				B840E9052773A0B50023625E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46FEDE1B71ECE5292F1C37D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PinSoftCase/Pods-PinSoftCase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PinSoftCase/Pods-PinSoftCase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PinSoftCase/Pods-PinSoftCase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2A79F58AF0520B3F0995897 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PinSoftCase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8DE56632770A00E00D6B2BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B840E902277389EE0023625E /* SearchResultTableViewCell.swift in Sources */,
+				B8DE566F2770A00E00D6B2BE /* SearchViewController.swift in Sources */,
+				B846143A2770AC800015AA12 /* Film.swift in Sources */,
+				B8DE566B2770A00E00D6B2BE /* AppDelegate.swift in Sources */,
+				B846143C2770BEDE0015AA12 /* Displayable.swift in Sources */,
+				B8E2163827722835005D2104 /* DetailViewController.swift in Sources */,
+				B840E9142773B8870023625E /* AnimationController.swift in Sources */,
+				B840E9122773B8170023625E /* GradientView.swift in Sources */,
+				B8DE566D2770A00E00D6B2BE /* SceneDelegate.swift in Sources */,
+				B840E9162773B8E80023625E /* SlideOutAnimationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8DE56702770A00E00D6B2BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8DE56712770A00E00D6B2BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8DE56752770A00F00D6B2BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8DE56762770A00F00D6B2BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8DE56792770A00F00D6B2BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8DE567A2770A00F00D6B2BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8DE567C2770A00F00D6B2BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C13140A9397AB53EF9B5C0 /* Pods-PinSoftCase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PinSoftCase/PinSoftCase.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FD6TBLZQF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PinSoftCase/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tolgasayan.PinSoftCase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8DE567D2770A00F00D6B2BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7BD713110CEB7560A69ABC1 /* Pods-PinSoftCase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PinSoftCase/PinSoftCase.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FD6TBLZQF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PinSoftCase/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tolgasayan.PinSoftCase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8DE56622770A00E00D6B2BE /* Build configuration list for PBXProject "PinSoftCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8DE56792770A00F00D6B2BE /* Debug */,
+				B8DE567A2770A00F00D6B2BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8DE567B2770A00F00D6B2BE /* Build configuration list for PBXNativeTarget "PinSoftCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8DE567C2770A00F00D6B2BE /* Debug */,
+				B8DE567D2770A00F00D6B2BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B840E9062773A1BB0023625E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B840E9072773A1BB0023625E /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B840E9062773A1BB0023625E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		B840E9092773A1BB0023625E /* FirebaseAnalyticsSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B840E9062773A1BB0023625E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAnalyticsSwift-Beta";
+		};
+		B840E90B2773A1BB0023625E /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B840E9062773A1BB0023625E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B8DE565F2770A00E00D6B2BE /* Project object */;
+}
